@@ -1,6 +1,6 @@
 # MIT Bootcamp Class Exercises
 
-** Hello! **
+## **Hello!**
 
 Welcome to my portfolio of work completed for the *MIT Full Stack MERN Bootcamp*
 
