@@ -9,4 +9,4 @@ In here you will find creative engagement with the problems presented in class. 
 ### :suspect: Stay tuned for a link to the complete portfolio, coming this fall :suspect:  
 
 
-:rocket: All code referenced in this repository is property of MIT :rocket:
+:rocket: *All code referenced in this repository is property of MIT* :rocket:

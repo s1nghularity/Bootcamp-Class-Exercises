@@ -10,4 +10,4 @@ To be frank it only required uncommenting code at the bottom of the magic.js fil
 
 ### Woohoo!
 
-:rocket: All code referenced in this repository is property of MIT :rocket:
+:rocket: *All code referenced in this repository is property of MIT* :rocket:
