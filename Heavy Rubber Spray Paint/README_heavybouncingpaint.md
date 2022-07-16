@@ -16,4 +16,4 @@ Added gravity + particle bounce + floor
 
 ![Photo from JWST - Carina Nebule](https://github.com/s1nghularity/Bootcamp-Class-Exercises/blob/1f8222cebc8ffd0c02f95acf06e017bd0f1b10ef/Heavy%20Rubber%20Spray%20Paint/carina_nebula.jpg)
 
-
+:rocket: All code referenced in this repository is property of MIT :rocket:
