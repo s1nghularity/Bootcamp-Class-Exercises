@@ -3,9 +3,11 @@ This was an in-class exercise that really piqued my interest upon starting this 
 
 It required understanding:
 - *how to link HTML and JS files*
-- *the use of for loops*
+- *for loops*
 - *iterate through an entire array* 
 
-It also required understanding which parts of the first section of the code applied to the bottom section of the code in magic.js
+To be frank it only required uncommenting code at the bottom of the magic.js file, but understanding how the painting was actually being created and to understand how and why functions were executed was the real alchemy.
 
 ### Woohoo!
+
+:rocket: All code referenced in this repository is property of MIT :rocket:

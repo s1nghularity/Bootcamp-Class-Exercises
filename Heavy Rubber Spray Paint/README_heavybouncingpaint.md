@@ -14,6 +14,7 @@ Added Hex color spectrum
 
 Added gravity + particle bounce + floor 
 
+**One day I hope to get creative with this image from the James Webb Telescope and create a similar effect. Reminiscent of the websites of the 90s where things were interactive *just for fun*** 
 ![Photo from JWST - Carina Nebule](https://github.com/s1nghularity/Bootcamp-Class-Exercises/blob/1f8222cebc8ffd0c02f95acf06e017bd0f1b10ef/Heavy%20Rubber%20Spray%20Paint/carina_nebula.jpg)
 
-:rocket: All code referenced in this repository is property of MIT :rocket:
+:rocket: *All code referenced in this repository is property of MIT* :rocket:
