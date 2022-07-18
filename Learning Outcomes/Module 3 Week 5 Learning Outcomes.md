@@ -14,7 +14,8 @@
 :beginner:**SPLIT** splits a string in a new array of substrings (:negative_squared_cross_mark:not destructive). Use " " as a separator to split up words (considered a default separator). 
 
 :heavy_check_mark:For eg. If you have a box of 10 crayons and want to share with your 10 friends, you would call *crayons.split(" , ");* because the crayons in your boxes are 'separated' by commas and would return
-        ['Blue', 'Red', 'Yellow', 'Aquamarine', etcetc…]     
+
+    ['Blue', 'Red', 'Yellow', 'Aquamarine', etcetc…]     
 <br />    
 
 :beginner:**JOIN** changes elements of array into a string and is often used to put back together strings that have been SPLIT in a new way. It does this by creating and returning a new string by concatenating all of the elements in an array/array-like object, separated by commas or a specified separator string (:boom:destructive). (source: MDN) 
