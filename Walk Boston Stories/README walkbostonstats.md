@@ -4,7 +4,7 @@
 
 :heavy_check_mark:Use of curl -o boston.js + URL in the terminal to pull JSON data from a website and populate a new JS file with it. We needed to put the meta data into a variable to create a viable JS files.<br />
 
-:heavy_check_mark:Use of fat arrows and template literals for code efficiency<br />
+:heavy_check_mark:Use of fat arrows and template literals for efficient code.<br />
 
 :heavy_check_mark:Use of .sort an array in descending order and slice to grab the top 5 earners.<br />
 
