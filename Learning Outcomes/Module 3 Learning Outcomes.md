@@ -41,3 +41,20 @@ It would look like *crayons.spit(" , ").join("glue");*
 :beginner:**INDEXOF** returns the position/index of the first instance of a value in a string, otherwise *returns -1 if value not found* (:negative_squared_cross_mark:not destructive).
 
 :heavy_check_mark:For eg. If you wanted to find out where the yellow crayon is in your box you would call crayons.indexOf('Yellow') to return a value 2 as it's the third crayon in your box. 
+
+## CALLBACK FUNCTIONS VS REGULAR FUNCTIONS
+
+:beginner:A callback function i a function that is passed to another function as a parameter. A regular function expression executes code based on the arguments(parameters) provided. 
+
+:heavy_check_mark:Callback functions operate by passing another function as a parameter. For example...
+
+**function greeting(name)** {alert('Hello ' + name);}<br>
+**function processUserInput(callback)** {<br>
+    var name = prompt('Please enter your name.');<br>
+    callback(name);<br>
+  }<br>  
+ **processUserInput(greeting);**<br>
+
+:beginner:Functions that accepts other functions as arguments are called *higher-order functions* and they contain the logic for *when* the callback function is executed.   
+
+
