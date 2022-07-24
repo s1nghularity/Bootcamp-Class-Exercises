@@ -48,13 +48,15 @@ It would look like *crayons.spit(" , ").join("glue");*
 
 :heavy_check_mark:Callback functions operate by passing another function as a parameter. For example...
 
-**function greeting(name)** {alert('Hello ' + name);}<br>
-**function processUserInput(callback)** {<br>
-    var name = prompt('Please enter your name.');<br>
-    callback(name);<br>
-  }<br>  
- **processUserInput(greeting);**<br>
+```
+function greeting(name) {alert('Hello ' + name);}
+
+function processUserInput(callback) {>
+    var name = prompt('Please enter your name.');
+    callback(name);
+  }  
+processUserInput(greeting);
+```
 
 :beginner:Functions that accepts other functions as arguments are called *higher-order functions* and they contain the logic for *when* the callback function is executed.   
-
 
