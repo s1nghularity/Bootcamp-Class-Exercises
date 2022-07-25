@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
 <script src="payments_2005_to_2010.js"></script>
+
+<body>
+
+<p id= "textprint" ></p>
+
 <script>
+	var payments = 0;
+	function add(item){
+		payments += Number(item[9]);
+	}
 
-var payments = 0;
-function add(item){
-	payments += Number(item[9]);
-}
+	chicago.data.forEach(add);
+	console.log(payments);
 
-chicago.data.forEach(add);
-console.log(payments);
+	let printpayments = [];
+	printpayments.push(payments);
+	console.log(printpayments);
+	let text = `The City of Chicago paid vendors ${printpayments} USD from 2005 to 2010.`;
+	document.getElementById("textprint").innerHTML = text;
 
 </script>
+
+</body>
 </html>
