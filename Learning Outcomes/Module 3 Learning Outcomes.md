@@ -60,3 +60,13 @@ processUserInput(greeting);
 
 :beginner:Functions that accepts other functions as arguments are called *higher-order functions* and they contain the logic for *when* the callback function is executed.   
 
+## CALLBACKS & ASYNCHRONOUS POGRAMMING
+
+:beginner:Referring to the code above, the callback is triggered by the final function (or outer function) invocation which uses the *greeting* function, as a parameter. The value *name* is nested within the callback function *processUserInput*. The callback function specifies the parameters your want to use in the outer function.
+
+:one:Define function with callback as parameter<br>
+:two:Define what the callback does using a secondary function, with the action in the function assigned the name of the callback parameter.<br>
+:three:Invoke secondary function using first function as parameter.<br><br> 
+
+
+:eight_pointed_black_star:Asynchronous programming presents a challenge when using multiple callback functions to accodomate multiple asynchronous actions. To take the example code further...
