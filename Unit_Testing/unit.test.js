@@ -1,4 +1,4 @@
-import greet from './unit';
+import greet from './unit.js';
 
 describe('test greet()', function () {
     it('should greet a name', function () {

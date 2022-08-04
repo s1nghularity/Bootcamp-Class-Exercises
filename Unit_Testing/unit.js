@@ -1,20 +1,21 @@
 export function greet(name) {
   let result;
 
-  switch (name()) {
+  switch (name) {
     case 'Elizabeth':
       result = `Hello,${name}`;
       break;
-    case name.isUpper:
+    case name.isUpperCase:
       result = `Hello, ${name}`;
       break;
     case name = []:
       result = `Hello, ${[...name]}`;
+      break;
     default:
       result = "Hello there!";
   }
-}
-
+};
+greet('ELIZABETH');
 
 
 
