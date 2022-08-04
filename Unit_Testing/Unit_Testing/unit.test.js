@@ -1,43 +1,21 @@
-const { exportAllDeclaration } = require('@babel/types');
-var utils  = require('course-utilities');
-const { it } = require('node:test');
-var greeting = utils.load('./unit.js', 'name');
+import greet from './unit';
 
-describe('test greet()', () => {
-    test('does function work', function(){
-        expect(greet('Elizabeth')).toBeCalled();
-
-        
+describe('test greet()', function () {
+    it('should greet a name', function () {
+      expect(greet('Elizabeth')).toEqual('Hello, Elizabeth');
     });
-    
-    test('shout response', () => {
-        expect(name).toMatch(name.isUpper);
+    it('should handle null value', function () {
+      expect(greet()).toEqual('Hello there!');
     });
-
-
-
-});
-
-//     test('Object properties present', () => {
-//         expect(mit).toHaveProperty('city');
-//         expect(mit).toHaveProperty('colors');
-//         expect(mit).toHaveProperty('mascot');
-//     });
-
-//     test('City match', () => {
-//         expect(mit.city).toBe('Cambridge');
-//     });
-
-//     test('Colors match', () => {
-//         expect(mit.colors).toContain('Silver Gray');    
-//     });
-
-//     test('Founded range', () => {
-//         expect(mit.founded).toBeLessThanOrEqual(1875);
-//         expect(mit.founded).toBeGreaterThanOrEqual(1850);    
-//     });
-
-//     test('Motto', () => {
-//         expect(mit.motto).toMatch('Mens');
-//     });
-// });
+    it('should handle shouting', function () {
+      expect(greet('JOSE')).toEqual('HELLO JOSE!');
+    });
+    it('should handle 2 names', function () {
+      expect(greet(['Jose', 'Pep'])).toEqual('Hello, Jose, Pep');
+    });
+    it('should handle multiple names', function () {
+      expect(greet(['Alex', 'Arsene', 'Jose', 'Zidane'])).toEqual(
+        'Hello, Alex, Arsene, Jose, Zidane'
+      );
+    });
+  });

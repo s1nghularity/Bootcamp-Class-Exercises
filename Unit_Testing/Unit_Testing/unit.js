@@ -1,5 +1,3 @@
-var name = []
-
 export function greet(name) {
   let result;
 
@@ -10,8 +8,8 @@ export function greet(name) {
     case name.isUpper:
       result = `Hello, ${name}`;
       break;
-    case greet([a, b]):
-      result = `Hello, ${a}, ${b}`;
+    case name = []:
+      result = `Hello, ${[...name]}`;
     default:
       result = "Hello there!";
   }
@@ -45,14 +43,14 @@ export function greet(name) {
 // };
 
 
-let result = greet("Elizabeth");
-console.log(result);
+// let result = greet("Elizabeth");
+// console.log(result);
 
-let result2 = greet("JOSE");
-console.log(result2);
+// let result2 = greet("JOSE");
+// console.log(result2);
 
-let result3 = greet(['Jose','Pep']);
-console.log(result3)
+// let result3 = greet(['Jose','Pep']);
+// console.log(result3)
 
 
 
