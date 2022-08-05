@@ -1,60 +1,18 @@
-export function greet(name) {
+export default function greet(name) {
   let result;
-
-  switch (name) {
-    case 'Elizabeth':
-      result = `Hello,${name}`;
-      break;
-    case name.isUpperCase:
-      result = `Hello, ${name}`;
-      break;
-    case name = []:
-      result = `Hello, ${[...name]}`;
-      break;
-    default:
-      result = "Hello there!";
-  }
-};
-greet('ELIZABETH');
-
-
-
-
-
-// function greet(name){
-//     const normal = (greet([name]))    
-//         return `Hello,${name}`;
-    
-//     else if (name = null) {
-//         return "Hello there!"
-//     } 
-
-//     else if (name.isUpper){
-//         return `Hello, ${name}`
-//     }
-    
-//     else if (greet([a,b])){
-//         return `Hello, ${a}, ${b}`     
-//     }
+    switch (name) {
+      case 'Elizabeth':
+        result = `Hello,${name}`;
+        break;
+      case name.isUpperCase:
+        result = `Hello, ${name}`;
+        break;
+      case name = []:
+        result = `Hello, ${[...name]}`;
+        break;
+      default:
+        result = "Hello there!";
+    }
+  return result;
+}
  
-//     else if (greet([...name])){
-//         return `Hello, ${[name]}`     
-//     }
-
-// };
-
-
-// let result = greet("Elizabeth");
-// console.log(result);
-
-// let result2 = greet("JOSE");
-// console.log(result2);
-
-// let result3 = greet(['Jose','Pep']);
-// console.log(result3)
-
-
-
-
-
-

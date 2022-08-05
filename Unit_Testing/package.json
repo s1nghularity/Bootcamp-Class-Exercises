@@ -8,7 +8,7 @@
   },
   "jest": {
     "testMatch": [
-      "<rootDir>/**.spec.js"
+      "<rootDir>/unit.spec.js"
     ]
   },
   "keywords": [],
