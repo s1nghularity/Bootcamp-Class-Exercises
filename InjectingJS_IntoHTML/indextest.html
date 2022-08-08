@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <iframe width="560" height="315" 
+      src="https://www.youtube-nocookie.com/embed/aur6gKYgIp4?autoplay=1" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe><br>
+  </head>
+  
+  <script>
+    const changeBg = () => document.body.style.backgroundColor = "purple"   
+    setTimeout(changeBg, 10000); 
+  </script>
+
+  <script>
+      window.onload = function () {
+            const tag = document.getElementById("tag1");
+            let time = 10;
+            const getTime = () => {
+              time = time -1;
+              tag.innerHTML = "We will now over your radiooo (in " + time + " seconds)";
+            }
+            const stopTime = () => {
+              const tag2 = document.getElementById("tag2");
+              document.getElementById("tag2").insertAdjacentHTML("afterend","<h3>If I hit 'em high, hit 'em high, hit 'em high...Then you hit 'em low, hit 'em low, hit 'em low.</h3>")}                
+            setInterval(getTime, 1000);
+            setInterval(stopTime, 10000);
+          };
+            
+  </script>
+    <body>
+      <div>
+        <h1 id="tag1"; style = "color:#F5F2EC";> 
+          Greetings Earthlings...
+        </h1>
+      </div>
+      <div>
+        <h2 id="tag2"; style = "color:#6AE311">___</h2>
+      </div>
+    </body>
+  </script>
